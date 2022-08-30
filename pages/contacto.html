@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nombre de la Empresa</title>
+        <link rel="shortcut icon" href="../assets/others/logo.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__empresa">
+                <img class="header__empresa-logo" src="../assets/images/logo.PNG" alt="Logo_Empresa" />
+                <h1 class="header__empresa-nomEmpresa">Eventus</h1>
+            </div>
+            <div class="header__navbar">
+                <nav>
+                    <ul class="header__navbar-content">
+                        <li>
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./catalogo.html">Catalogo</a>
+                        </li>
+                        <li>
+                            <a href="./eventos.html">Eventos</a>
+                        </li>
+                        <li>
+                            <a href="./empresa.html">Empresa</a>
+                        </li>
+                        <li>
+                            <a href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="container">
+                <form class="container__form" action="send.php" method="get" enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>Llena esta forma para contactarnos</legend>
+
+                        <div class="container__form__data">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" />
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" />
+                        </div>
+
+                        <div class="container__form__data">
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" />
+                            <label for="correo">Correo</label>
+                            <input type="text" id="correo" />
+                        </div>
+               
+                        <textarea cols="100" rows="30" placeholder="Escriba aqui un mensaje"></textarea>
+
+                        <ul class="container__form__list">
+                            <li>
+                                <input type="radio" name="tipo-evento" id="casamiento" />
+                                <label for="casamiento">Casamiento</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="tipo-evento" id="fiesta15" />
+                                <label for="fiesta15">Fiesta de 15 Años</label>
+
+                            </li>
+                            <li>
+                                <input type="radio" name="tipo-evento" id="aniversario" />
+                                <label for="aniversario">Aniversario</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="tipo-evento" id="despedida-solte" />
+                                <label for="despedida-solte">Despedida Soltero/a</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="tipo-evento" id="otro" />
+                                <label for="otro">Otro</label>
+                            </li>
+                        </ul>
+                    </fieldset> 
+                    <button type="submit">Enviar Mensaje</button>                   
+                </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="redes">
+                <a href="tel:08009992838">
+                    <img src="../assets/images/icono_telefono.png" alt="telefono" />
+                </a>
+                <a href="https://www.instagram.com/" target="_blank"> 
+                    <img src="../assets/images/icono_instagram.png" alt="instagram"/>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank"> 
+                    <img src="../assets/images/icono_facebook.png" alt="facebook"/>
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <img src="../assets/images/icono_whatsapp.png" alt="whatsapp" />
+                </a>
+            </div>
+        </footer>
+    
+    </body>
+</html>
