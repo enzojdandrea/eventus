@@ -29,14 +29,10 @@ ul{
     position: sticky;
     top: 0px;
     background-color: #0f172a;
-    padding: 30px 20px;
     z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.header__empresa{
+/* .header__empresa{
     display: flex;
     align-items: center;
 }
@@ -58,7 +54,7 @@ ul{
     margin: 0 10px;
     color: #e2e8f0;
     font-weight: bold;
-}
+} */
 
 .redes{
     position: fixed;
@@ -159,14 +155,14 @@ ul{
 
 /* estilos eventos */
 
-.container{
+.containe{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     background: linear-gradient( rgba(15,23,42,1),rgba(2,32,255,1),rgba(0,245,255,1));
 }
 
-.container__event{  
+.containe__event{  
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
@@ -179,18 +175,18 @@ ul{
     
 }
 
-.container__event__header{
+.containe__event__header{
     margin: 10px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
 }
 
-.container__event__header p {
+.containe__event__header p {
     margin: 10px;
 }
 
-.container__event__header img{
+.containe__event__header img{
     width: 375px;
 }
 
@@ -271,7 +267,7 @@ ul{
 
 /* estilos contactos */
 
-.container__form{
+.containe__form{
     display: grid;
     grid-template-areas: 
         "data data2"
@@ -287,34 +283,34 @@ ul{
     box-shadow: 0px 25px 50px -12px rgba(221, 6, 6, 0.6);
     
 }
-.container__form fieldset{
+.containe__form fieldset{
     width: auto;
 }
 
-.container__form__data{
+.containe__form__data{
     margin: 10px;
     grid-area: data;
 }
 
-.container__form textarea{
+.containe__form textarea{
     margin: 10px;
     grid-area: texto;
 
 }
 
-.container__form ul{
+.containe__form ul{
     margin: 10px;
     grid-area: list;
 }
 
-.container button{
+.containe button{
     margin: 10px;
     grid-area: boton;
 }
 
 
 @media(min-width: 992px){
-    .container__form textarea{
+    .containe__form textarea{
         width: 1000px;
         height: 300px;
     }
@@ -322,12 +318,12 @@ ul{
 
 @media (max-width: 992px){
     /* media eventos */
-    .container__event{
+    .containe__event{
         grid-template-columns: 1fr;
     }
 
     /* media contacto */
-    .container__form textarea{
+    .containe__form textarea{
         width: 650px;
         height: 350px;
     }
@@ -335,15 +331,15 @@ ul{
 
 @media (max-width: 768px){
     /* media navegador */
-    .header__navbar{
+    /* .header__navbar{
         display: none;
-    }
+    } */
 
     /* media catalogo */
     .catalog{
         margin: 10px 10px;
     }
-    .container__form textarea{
+    .containe__form textarea{
         width: 500px;
         height: 300px;
     }
@@ -352,7 +348,7 @@ ul{
 
 @media (max-width: 576px){
     /* media Eventos */
-    .container__event-video{
+    .containe__event-video{
         width: 375px;
     }
 
@@ -363,7 +359,7 @@ ul{
 }
 
 @media (max-width: 350px){
-    .container__form textarea{
+    .containe__form textarea{
         width: 300px;
         height: 200px;
     }
