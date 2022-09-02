@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     box-sizing: border-box;
 }
 
@@ -31,30 +30,6 @@ ul{
     background-color: #0f172a;
     z-index: 1;
 }
-
-/* .header__empresa{
-    display: flex;
-    align-items: center;
-}
-
-.header__empresa-logo{
-    width: 50px;
-    border-right: 20px;
-}
-.header__empresa-nomEmpresa{
-    color:#22c55e;
-}
-.header__navbar-content{
-    display: flex;
-    align-items: flex-end;
-
-}
-
-.header__navbar-content a{
-    margin: 0 10px;
-    color: #e2e8f0;
-    font-weight: bold;
-} */
 
 .redes{
     position: fixed;
@@ -267,55 +242,6 @@ ul{
 
 /* estilos contactos */
 
-.containe__form{
-    display: grid;
-    grid-template-areas: 
-        "data data2"
-        "data data2"
-        "texto texto"
-        "list list"
-        "boton boton"
-    ;
-    background-color: white;
-    padding: 20px;
-    margin: 40px 100px;
-    border-radius: 10px;
-    box-shadow: 0px 25px 50px -12px rgba(221, 6, 6, 0.6);
-    
-}
-.containe__form fieldset{
-    width: auto;
-}
-
-.containe__form__data{
-    margin: 10px;
-    grid-area: data;
-}
-
-.containe__form textarea{
-    margin: 10px;
-    grid-area: texto;
-
-}
-
-.containe__form ul{
-    margin: 10px;
-    grid-area: list;
-}
-
-.containe button{
-    margin: 10px;
-    grid-area: boton;
-}
-
-
-@media(min-width: 992px){
-    .containe__form textarea{
-        width: 1000px;
-        height: 300px;
-    }
-}
-
 @media (max-width: 992px){
     /* media eventos */
     .containe__event{
@@ -323,25 +249,12 @@ ul{
     }
 
     /* media contacto */
-    .containe__form textarea{
-        width: 650px;
-        height: 350px;
-    }
 }
 
 @media (max-width: 768px){
-    /* media navegador */
-    /* .header__navbar{
-        display: none;
-    } */
-
     /* media catalogo */
     .catalog{
         margin: 10px 10px;
-    }
-    .containe__form textarea{
-        width: 500px;
-        height: 300px;
     }
 
 }
@@ -355,13 +268,6 @@ ul{
     /* media empresa */
     .empresa__other img{
         width: 400px;
-    }
-}
-
-@media (max-width: 350px){
-    .containe__form textarea{
-        width: 300px;
-        height: 200px;
     }
 }
 
