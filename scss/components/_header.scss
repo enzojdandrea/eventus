@@ -1,0 +1,29 @@
+.header{
+    position: sticky;
+    top: 0px;
+    background-color: #0f172a;
+    z-index: 1;
+}
+.navbar{
+    &-brand{
+        &:hover::after{
+            content: "Inicio";
+            color: cyan;
+            font-size: 10px;
+            margin-left: 5px;
+        }
+    }    
+}
+
+.nav{
+    &-link{
+        font: 20px bold;
+        transition: color 2s;
+        transition: translate 2s;
+
+        &:hover {
+            color: cyan;
+            translate: 0px -12px ;
+        }
+    }
+}
