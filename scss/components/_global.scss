@@ -22,3 +22,18 @@ p{
 ul{
     list-style-type: none;
 }
+
+ .contenedorizquierdo{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px 0px;
+}
+
+.contenedorderecho{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-end;
+}

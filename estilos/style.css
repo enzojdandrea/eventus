@@ -1,108 +1,8 @@
 /* estilos generales */
 
-
-
-.redes{
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    padding: 5px;
-    background-color: rgba(255,255,255,50%);
-    border-radius: 20px;
-}
-
-.redes img{
-    width: 20px;
-    transition: width 1s;
-}
-
-.redes img:hover{
-    width: 50px;
-}
-
 /* estilos index */
 
-.main{
-    display: grid;
-    /* grid-template-rows: repeat(2,1fr); */
-    padding: 50px 20px;
-    background-image: url("../assets/images/eventos.jpg");
-    background-repeat: no-repeat; /* valor por defecto*/
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.main__content{
-    background: linear-gradient( rgba(15,23,42,1),rgba(2,32,255,1),rgba(0,245,255,1));
-}
-
-.main__content--title{
-    font-size: 30px;
-    margin-bottom: 10px;
-    color: black;
-}
-
-.main__content--content{
-    color: black;
-}
-
-.main img{
-    width: 100%;
-    position: fixed;
- }
-
-
- /*efecto paralax */
-.paralax{ 
-    margin-top: 80px;
-    padding: 50px 20px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
- } 
-
-
-.main__content{
-    position: relative;
-    color: white;
-    background-color: rgba(255,255,255,50%);
-}
-
-
 /* estilos catalogo */
-
-.contenedor__catalog{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    background: linear-gradient( rgba(15,23,42,1),rgba(2,32,255,1),rgba(0,245,255,1));
-}
-
-.catalog{
-    background-color: white;
-    padding: 20px;
-    margin: 40px 100px;
-    width: 600px;
-    border-radius: 10px;
-    box-shadow: 0px 25px 50px -12px rgba(0,0,0,60%);
-}
-
-.catalog__description{
-    margin-bottom: 30px;
-}
-
-.catalog__header-img{
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.catalog__option{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-}
 
 /* estilos eventos */
 
@@ -190,20 +90,7 @@
     width: 500px;
 }
 
-.contenedorizquierdo{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 50px 0px;
-}
 
-.contenedorderecho{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: flex-end;
-}
 
 .contenedorderecho__empresa__description{
     top: 500px;
@@ -240,12 +127,7 @@
     }
 }
 
-@media (max-width: 768px){
-    /* media catalogo */
-    .catalog{
-        margin: 10px 10px;
-    }
-}
+
 
 @media (max-width: 576px){
     /* media Eventos */
