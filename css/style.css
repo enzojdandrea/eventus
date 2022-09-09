@@ -202,3 +202,19 @@ ul {
 @media (max-width: 460px) {
   .empresa__other img {
     width: 300px; } }
+
+.form-control {
+  transition: border 1s; }
+  .form-control:hover {
+    border: 5px solid  black; }
+  .form-control:focus {
+    border: 5px solid  red; }
+
+.fondocon {
+  background-image: linear-gradient(blue, cyan);
+  padding: 20px;
+  border: 10px solid #00b1b1;
+  border-radius: 10px; }
+
+.form-check-input:hover {
+  border: 2px solid cyan; }
