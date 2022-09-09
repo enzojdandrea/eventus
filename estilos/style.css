@@ -6,102 +6,7 @@
 
 /* estilos eventos */
 
-.containe{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    background: linear-gradient( rgba(15,23,42,1),rgba(2,32,255,1),rgba(0,245,255,1));
-}
-
-.containe__event{  
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-items: center;
-    background-color: white;
-    padding: 20px;
-    margin: 40px auto;
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0px 25px 50px -12px rgba(221, 6, 6, 0.6);
-    
-}
-
-.containe__event__header{
-    margin: 10px;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-}
-
-.containe__event__header p {
-    margin: 10px;
-}
-
-.containe__event__header img{
-    width: 375px;
-}
-
 /* estilos empresa */
-
-.empresa{
-    display: grid;
-    grid-template-columns: 1fr;
-    background: linear-gradient( rgba(15,23,42,1),rgba(2,32,255,1),rgba(0,245,255,1));
-}
-
-.empresa h2{
-    margin: 20px;
-    margin-bottom: 0px;
-    padding: 5px;
-    background-color: rgba(255,255,255,50%);
-    border-radius: 20px 20px 0px 0px; 
-}
-
-.empresa__description{
-    margin: 20px;
-    margin-top: 0px;
-    padding: 5px;
-    background-color: rgba(255,255,255,50%);
-    border-radius: 0px 20px 20px 20px;
-}
-
-.empresa h3{
-    margin: 20px;
-    margin-bottom: 0px;
-    padding: 5px;
-    background-color: rgba(255,255,255,50%);
-    border-radius: 20px 20px 0px 0px; 
-}
-
-.empresa__other{
-    margin: 20px;
-    margin-top: 0px;
-    padding: 5px;
-    background-color: rgba(255,255,255,50%);
-    border-radius: 20px 0px 20px 20px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.empresa__other img{
-    margin-top: 10px;
-    width: 500px;
-}
-
-
-
-.contenedorderecho__empresa__description{
-    top: 500px;
-    left: 10px;
-    margin: 20px;
-    margin-top: 0px;
-    padding: 5px;
-    background-color: rgba(255,255,255,50%);
-    border-radius: 20px 0px 20px 20px;
-}
-
 
 /* estilos contactos */
 
@@ -120,25 +25,10 @@
 .form-check-input:hover{
     border: 2px solid cyan;
 }
-@media (max-width: 992px){
-    /* media eventos */
-    .containe__event{
-        grid-template-columns: 1fr;
-    }
-}
 
 
 
-@media (max-width: 576px){
-    /* media Eventos */
-    .containe__event-video{
-        width: 375px;
-    }
 
-    /* media empresa */
-    .empresa__other img{
-        width: 400px;
-    }
-}
+
 
 

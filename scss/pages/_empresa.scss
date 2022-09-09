@@ -1,0 +1,68 @@
+.empresa{
+    display: grid;
+    grid-template-columns: 1fr;
+    background: linear-gradient( rgba(15,23,42,1),rgba(2,32,255,1),rgba(0,245,255,1));
+
+    h2{
+        margin: 20px;
+        margin-bottom: 0px;
+        padding: 10px;
+        background-color: rgba(255,255,255,50%);
+        border-radius: 20px 20px 0px 0px; 
+    }
+
+    &__description{
+        margin: 20px;
+        margin-top: 0px;
+        padding: 15px;
+        background-color: rgba(255,255,255,50%);
+        border-radius: 0px 20px 20px 20px;
+    }
+
+    h3{
+        margin: 20px;
+        margin-bottom: 0px;
+        padding: 5px;
+        background-color: rgba(255,255,255,50%);
+        border-radius: 20px 20px 0px 0px; 
+    }
+
+    &__other{
+        margin: 20px;
+        margin-top: 0px;
+        padding: 5px;
+        background-color: rgba(255,255,255,50%);
+        border-radius: 20px 0px 20px 20px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            margin-top: 10px;
+            width: 500px;
+        }
+    }
+}
+
+.contenedorderecho__empresa__description{
+    top: 500px;
+    left: 10px;
+    margin: 20px;
+    margin-top: 0px;
+    padding: 15px;
+    background-color: rgba(255,255,255,50%);
+    border-radius: 20px 0px 20px 20px;
+}
+
+@media (max-width: 576px){
+ .empresa__other img{
+     width: 400px;
+ }
+}
+
+@media (max-width: 460px){
+    .empresa__other img{
+        width: 300px;
+    }
+   }
