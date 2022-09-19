@@ -31,6 +31,17 @@ ul {
   justify-content: center;
   align-items: flex-end; }
 
+/*Extends*/
+.marginPaddingBottom, .empresa h2, .empresa h3 {
+  margin: 20px;
+  margin-bottom: 0px;
+  padding: 10px; }
+
+.marginPaddingTop, .empresa__description, .empresa__other, .contenedorderecho__empresa__description {
+  margin: 20px;
+  margin-top: 0px;
+  padding: 10px; }
+
 .header {
   position: sticky;
   top: 0px;
@@ -152,36 +163,24 @@ ul {
 
 .empresa {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(1, 1fr);
   background: linear-gradient(#0f172a, #0220ff, #00f5ff); }
   .empresa h2 {
-    margin: 20px;
-    margin-bottom: 0px;
-    padding: 10px;
     background-color: white;
     border-radius: 20px 20px 0px 0px; }
   .empresa__description {
-    margin: 20px;
-    margin-top: 0px;
-    padding: 15px;
     background-color: white;
     border-radius: 0px 20px 20px 20px; }
   .empresa h3 {
-    margin: 20px;
-    margin-bottom: 0px;
-    padding: 5px;
     background-color: white;
     border-radius: 20px 20px 0px 0px; }
   .empresa__other {
-    margin: 20px;
-    margin-top: 0px;
-    padding: 5px;
     background-color: white;
     border-radius: 20px 0px 20px 20px;
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
     .empresa__other img {
       margin-top: 10px;
       width: 500px; }
@@ -189,9 +188,6 @@ ul {
 .contenedorderecho__empresa__description {
   top: 500px;
   left: 10px;
-  margin: 20px;
-  margin-top: 0px;
-  padding: 15px;
   background-color: white;
   border-radius: 20px 0px 20px 20px; }
 

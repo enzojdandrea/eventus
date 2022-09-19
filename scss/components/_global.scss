@@ -37,3 +37,31 @@ ul{
     justify-content: center;
     align-items: flex-end;
 }
+
+/*Extends*/
+.marginPaddingBottom{
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.marginPaddingTop{
+    margin: 20px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+@mixin templateGrid($colums) {
+    display: grid;
+    grid-template-columns: repeat($colums,1fr);  
+}
+
+@mixin templateFlex($varJustify,$alignItems) {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: $varJustify;
+    @if($alignItems == true){
+        align-items: center;
+    }
+}
+

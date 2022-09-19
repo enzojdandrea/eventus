@@ -1,8 +1,6 @@
 .contenedor{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    background: linear-gradient( rgba(15,23,42,1),rgba(2,32,255,1),rgba(0,245,255,1));
+    @include templateFlex (space-around,false);
+    background: linear-gradient( $gradiente);
 
     &__catalog{
         background-color: white;
