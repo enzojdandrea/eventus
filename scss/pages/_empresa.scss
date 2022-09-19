@@ -4,25 +4,25 @@
 
     h2{
         @extend .marginPaddingBottom;
-        background-color: rgba(255,255,255,50%);
+        background-color: $colorGrey;
         border-radius: 20px 20px 0px 0px; 
     }
 
     &__description{
         @extend .marginPaddingTop;
-        background-color: rgba(255,255,255,50%);
+        background-color: $colorGrey;
         border-radius: 0px 20px 20px 20px;
     }
 
     h3{
         @extend .marginPaddingBottom;
-        background-color: rgba(255,255,255,50%);
+        background-color: $colorGrey;
         border-radius: 20px 20px 0px 0px; 
     }
 
     &__other{
         @extend .marginPaddingTop;
-        background-color: rgba(255,255,255,50%);
+        background-color: $colorGrey;
         border-radius: 20px 0px 20px 20px;
         @include templateFlex (center,true);
         
@@ -37,7 +37,7 @@
     top: 500px;
     left: 10px;
     @extend .marginPaddingTop;
-    background-color: rgba(255,255,255,50%);
+    background-color: $colorGrey;
     border-radius: 20px 0px 20px 20px;
 }
 
