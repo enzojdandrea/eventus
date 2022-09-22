@@ -5,6 +5,7 @@
     &__event{  
         @include templateGrid(2);
         justify-items: center;
+        align-items: center;
         background-color: white;
         padding: 20px;
         margin: 40px auto;
@@ -22,7 +23,7 @@
                 margin: 10px;
             }
             img{
-                width: 375px;
+                width: 100%;
             }
         }
         
@@ -37,6 +38,6 @@
 
 @media (max-width: 576px){
     .containe__event-video{
-        width: 375px;
+        width: 100%;
     }
 }

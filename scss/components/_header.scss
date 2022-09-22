@@ -8,11 +8,10 @@
 
 .navbar{
     &-brand{
-        &:hover::after{
-            content: "Inicio";
+        &:hover{
+            // content: "Inicio";
             color: cyan;
-            font-size: 10px;
-            margin-left: 5px;
+            font-weight: bolder;
         }
     }    
 }

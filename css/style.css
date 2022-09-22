@@ -48,11 +48,9 @@ ul {
   background-color: #0f172a;
   z-index: 1; }
 
-.navbar-brand:hover::after {
-  content: "Inicio";
+.navbar-brand:hover {
   color: cyan;
-  font-size: 10px;
-  margin-left: 5px; }
+  font-weight: bolder; }
 
 .nav-link {
   font: 20px bold;
@@ -137,6 +135,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+    align-items: center;
     background-color: white;
     padding: 20px;
     margin: 40px auto;
@@ -151,7 +150,7 @@ ul {
       .containe__event__header p {
         margin: 10px; }
       .containe__event__header img {
-        width: 375px; }
+        width: 100%; }
 
 @media (max-width: 992px) {
   .containe__event {
@@ -159,7 +158,7 @@ ul {
 
 @media (max-width: 576px) {
   .containe__event-video {
-    width: 375px; } }
+    width: 100%; } }
 
 .empresa {
   display: grid;
@@ -180,24 +179,17 @@ ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center; }
-    .empresa__other img {
-      margin-top: 10px;
-      width: 500px; }
+    align-items: center;
+    align-items: center;
+    justify-content: space-around; }
+    .empresa__other a img {
+      width: 70%; }
 
 .contenedorderecho__empresa__description {
   top: 500px;
   left: 10px;
   background-color: white;
   border-radius: 20px 0px 20px 20px; }
-
-@media (max-width: 576px) {
-  .empresa__other img {
-    width: 400px; } }
-
-@media (max-width: 460px) {
-  .empresa__other img {
-    width: 300px; } }
 
 .form-control {
   transition: border 1s; }

@@ -25,10 +25,16 @@
         background-color: $colorGrey;
         border-radius: 20px 0px 20px 20px;
         @include templateFlex (center,true);
+        // @include templateGrid(3);
+        align-items: center;
+        justify-content: space-around;
         
-        img{
-            margin-top: 10px;
-            width: 500px;
+        a{
+            
+            img{
+                // margin-top: 10px;
+                width: 70%;
+            }
         }
     }
 }
@@ -40,15 +46,3 @@
     background-color: $colorGrey;
     border-radius: 20px 0px 20px 20px;
 }
-
-@media (max-width: 576px){
- .empresa__other img{
-     width: 400px;
- }
-}
-
-@media (max-width: 460px){
-    .empresa__other img{
-        width: 300px;
-    }
-   }
