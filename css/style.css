@@ -84,7 +84,7 @@ ul {
   background-size: cover;
   background-attachment: fixed; }
   .main__content {
-    background: linear-gradient(#0220ff, #00f5ff);
+    background: linear-gradient(#0f172a, #eb7cfa, #c2ecee);
     border-radius: 30px;
     margin-top: 80px;
     padding: 50px 20px; }
@@ -102,7 +102,7 @@ ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  background: linear-gradient(#0f172a, #0220ff, #00f5ff); }
+  background: linear-gradient(#0f172a, #eb7cfa, #c2ecee); }
   .contenedor__catalog {
     background-color: white;
     padding: 20px;
@@ -129,7 +129,7 @@ ul {
 .containe {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  background: linear-gradient(#0f172a, #0220ff, #00f5ff); }
+  background: linear-gradient(#0f172a, #eb7cfa, #c2ecee); }
   .containe__event {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -162,7 +162,7 @@ ul {
 .empresa {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  background: linear-gradient(#0f172a, #0220ff, #00f5ff); }
+  background: linear-gradient(#0f172a, #eb7cfa, #c2ecee); }
   .empresa h2 {
     background-color: white;
     border-radius: 20px 20px 0px 0px; }
@@ -191,7 +191,7 @@ ul {
   border-radius: 20px 0px 20px 20px; }
 
 .contactos {
-  background-image: linear-gradient(blue, cyan);
+  background-image: linear-gradient(#0f172a, #eb7cfa, #c2ecee);
   margin: 0;
   padding: 20px; }
 
@@ -208,7 +208,6 @@ ul {
   padding: 5px; }
 
 .fondocon {
-  background-image: linear-gradient(blue, cyan);
   padding: 20px;
   border: 10px solid #00b1b1;
   border-radius: 10px; }

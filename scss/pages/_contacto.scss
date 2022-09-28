@@ -1,5 +1,5 @@
 .contactos{
-    background-image: linear-gradient(blue,cyan);
+    background-image: linear-gradient($gradiente);
     margin: 0;
     padding: 20px;
 }
@@ -22,7 +22,6 @@
 }
 
 .fondocon{
-    background-image: linear-gradient(blue,cyan);
     padding: 20px;
     border: 10px solid rgb(0, 177, 177);
     border-radius: 10px;

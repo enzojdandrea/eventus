@@ -9,7 +9,7 @@
     background-attachment: fixed;
 
     &__content{
-        background: linear-gradient(rgba(2,32,255,1),rgba(0,245,255,1));
+        background: linear-gradient($gradiente);
         border-radius: 30px;
          margin-top: 80px;
         padding: 50px 20px;
