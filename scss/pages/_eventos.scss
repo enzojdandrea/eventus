@@ -1,5 +1,6 @@
 .containe{
-    @include templateFlex (space-around,false);
+    // @include templateFlex (space-around,false);
+    @include templateGrid(1);
     background: linear-gradient($gradiente);
 
     &__event{  
@@ -8,7 +9,7 @@
         align-items: center;
         background-color: white;
         padding: 20px;
-        margin: 40px auto;
+        margin: 20px auto;
         width: 100%;
         border-radius: 10px;
         box-shadow: 0px 25px 50px -12px rgba(221, 6, 6, 0.6);
