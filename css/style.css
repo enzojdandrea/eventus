@@ -90,6 +90,7 @@ ul {
     padding: 50px 20px; }
     .main__content--title {
       font-size: 30px;
+      font-weight: bold;
       margin-bottom: 10px;
       color: black; }
     .main__content--content {
@@ -182,7 +183,7 @@ ul {
     align-items: center;
     justify-content: space-around; }
     .empresa__other a img {
-      width: 70%; }
+      width: 200px; }
 
 .contenedorderecho__empresa__description {
   top: 500px;
