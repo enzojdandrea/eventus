@@ -1,0 +1,1 @@
+alert("Recurde ingresar por nuestra seccion Catalgo donde podra diseñar su evento y ver un precio aproximado");
