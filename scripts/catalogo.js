@@ -31,3 +31,13 @@ function varioseventos(cantidad){
         selcUbi();
     }
 }
+
+
+//esto esta en prueba no es para la entrega XD
+function copa(num){
+    if(num=="2"){
+        document.getElementById("copa").src="../assets/images/platoscuadrados.jfif";
+    }else{
+        document.getElementById("copa").src="../assets/images/copa.jpg";
+    }
+}
